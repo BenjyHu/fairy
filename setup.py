@@ -3,17 +3,16 @@ Author : hupeng
 Time : 2021/8/6 14:27 
 Description: 
 '''
-import dandan
-
 import setuptools
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="fairy",
+    name="fairy_tail",
     version="0.0.1",
     author="BenjyHu",
+    license="MIT",
     author_email="m15227041551@163.com",
     description="A small smart package",
     long_description=long_description,
